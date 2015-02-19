@@ -1,0 +1,289 @@
+body{
+    width:100%;
+    height:100%;
+    background-color:#717171;
+    background-image: url(../i/white_dust.png);
+    background-size: 40%;
+}
+.iphone_mwrapper{
+    height:600px;
+    width:400px;
+    margin:0px auto;
+    background-color:black;
+    display:block;
+    border-radius: 8px;
+   -webkit-box-shadow: 4px 2px 5px 0px rgba(23,17,23,1);
+    -moz-box-shadow: 4px 2px 5px 0px rgba(23,17,23,1);
+    box-shadow: 4px 2px 5px 0px rgba(23,17,23,1);
+}
+.iphone_wrap{
+    width:100%;
+    height:100%;
+    background-color:#F9F7F2;
+    border-left: 1px solid #B39595;
+    border-right: 1px solid #B39595;
+    border-bottom: 2px solid #DBDBD8;
+    border-radius: 8px;
+}
+.iphone_inner{
+    height:95%;
+    margin-top:15%;
+    width:95%;
+    margin:0px auto;
+    background-color:blue;
+    display:block;    
+}
+.speaker_wrapper{
+    margin-top: 48px;
+    width: 100%;
+    height: 20px;
+    margin: 0px auto;
+    display: inline-block;
+}
+.speaker{
+    width: 115px;
+    height: 10px;
+    margin: 0px auto;
+    background-color: #5B5C6E;
+    border: 3px double #FFF;
+    border-radius: 10px;
+    margin-top: 10%;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,rgba(255, 255, 255, 0.7)), color-stop(-82%,rgba(224, 223, 220, 0.6)), color-stop(54%,#EFEFEF), color-stop(86%,rgba(255, 255, 255, 0.6)), color-stop(99%,rgba(237, 235, 232, 0.69)), color-stop(100%,rgba(237, 235, 232, 0.7)));
+}
+
+.iphone_inner > .i_top{
+    width:100%;
+    height:15%;
+    background-color:#EFEFEF;
+    margin:0px auto;
+}
+input[type="text"] {
+background-color: rgba(0, 0, 0, 0);
+border-image: none !important;
+border: none;
+text-align: center;
+margin-top: -5px;
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+font-size: 2em;
+color: #5AA287;
+}
+.iphone_inner > .i_middle{
+    width:100%;
+    height:70%;
+    background-color: #4B3A4F;
+    margin:0px auto;
+}
+.imenu_wrapper{
+    margin:0px auto;
+    width:98%;
+    height:8%;
+    vertical-align:top;
+    background-color:rgba(9, 33, 40, 0.47);
+    color:white;
+    padding:2px 4px;
+    list-style:none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+p#menu_right {
+margin: 0px auto;
+vertical-align: top;
+margin-top: -25px;
+}
+.imenu_wrapper ul{}
+.imenu_wrapper li{
+    width:31%;
+    float:left;
+    height:100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: .6em;
+    color:rgba(196, 239, 236, 0.64);
+}
+#iw_2{
+    text-align:center;
+}
+#iw_3{
+    text-align:right;
+    background-image: url(../i/battery.png);
+    background-repeat: no-repeat;
+    background-size: 26%;
+    background-position: 2px 0px;
+    
+}
+.iphone_inner > .i_bottom{
+    width: 100%;
+    height: 20%;
+    background-color:#EFEFEF;
+    margin: 0px auto;
+    display: inline-block;
+    background-color: url(../i/phone_txture.png);
+}
+.iphone_inner .i_bottom > #home_button_wr{
+    width: 49px;
+    height: 50px;
+    background-color:rgba(120, 151, 162, 0.65);
+    margin: 0px auto;
+    margin-top: 5%;
+    padding: 1%;
+    border-radius: 50%;
+    border: 1px solid #31FF63;
+}
+.iphone_inner .i_bottom #home_button_wr > #hb_inner{
+    width: 70%;
+    height: 70%;
+    background-color:#4A3E4C;
+    margin: 0px auto;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 3px solid rgba(249, 241, 250, 0.81);
+}
+.screen_wrapper{
+    width: 96%;
+    height: 87%;
+    background-color: #453349;
+    border:1px solid rgba(98, 197, 156, 0.13);
+    display: block;
+    margin: 0px auto;
+    margin-top: 6px;
+}
+#sw_1,#sw_2,#sw_3{
+    width: 95%;
+    height: 30%;
+    background-color:transparent;
+    margin: 0px auto;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+#sw_1 .sw_inner1{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color:transparent;
+    margin: 0px auto;
+    margin-left:-40px;
+}
+#sw_1 .sw_inner1 li{
+    width:30%;
+    height:100%;
+    background-color:transparent;
+    list-style:none;
+    
+}
+li#swi_1{
+    float:left;
+    clear:both;
+}
+li#swi_1 .sw_image1,li#swi_2 .sw_image2,li#swi_3 .sw_image3{
+    background-color:rgb(213, 123, 52);
+    width:100%;
+    height:100%;
+    margin:0px auto;
+    margin-bottom:5px;
+    border-radius:80px;
+}
+li#swi_1 .sw_img1_title,li#swi_2 .sw_img2_title,li#swi_3 .sw_img3_title{
+    background-color: transparent;
+    width: 100%;
+    height: 20px;
+    margin: -3px auto;
+    color: rgba(184, 109, 56, 0.79);
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+li#swi_2{
+    float: left;
+    margin-left: 5%;
+}
+li#swi_3{
+    float:right;
+    
+}
+/*Weather*/
+#weather {
+    width: 20%;
+    margin: 0px auto;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: -15px;
+    font-size: 1.3em;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 2px;
+}
+/*Weather*/
+/*NewsTicker*/
+ul.newsticker{margin-top: 60px;}
+ul.newsticker li {
+    color: rgba(176, 103, 147, 0.55);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    list-style: none;
+    margin-left: -39px;
+    
+}
+/*NewsTicker*/
+div#sw_1 a,#sw_2 a,#sw_3 a {
+color: rgba(140, 162, 181, 0.77);
+}
+/*web_viewer*/
+.web_view{
+width: 342px;
+height: 138px;
+overflow: hidden !important;
+opacity: .4;
+margin: 0px auto;
+border: 3px solid #FFF;
+margin-top: 17px;
+}
+#sw_2 iframe {
+width: 350px;
+height: 148px;
+opacity: .6;
+margin-top: 15px;
+}
+#googleMap{
+width: 90%;
+height: 90%;
+margin: 0px auto;
+margin-top: 1px;
+margin-left: 1px;
+border-radius: 60px;
+border: 5px solid #D57B34;
+}
+.sw_image1 {
+margin-bottom: 0px !Important;
+background-color: transparent !important;
+opacity: .8;
+}
+.sw_img1_title {
+margin-top: 1px !important;
+}
